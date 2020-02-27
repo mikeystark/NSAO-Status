@@ -121,12 +121,15 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   categories:
-    - name: North Coast
-      description: The main servers are located here.
+    - name: NSAO Cloud Desktop
+      description: NSAO hosted user cloud desktops
       closed: true
-    - name: East Coast      
-    - name: Uncategorized
-      untitled: true
+    - name: NSAO Email Services
+      description: NSAO hosted user Exchange email services
+      closed: true
+    - name: NSAO Voice Services
+      description: NSAO hosted voice services
+      closed: true
 
   # These are your systems. Change them to
   # change the amount of components.
