@@ -137,12 +137,13 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   systems:
-    - name: East Coast
-      category: NSAO Cloud Desktop
     - name: East Coast Datacenter
+      description: East Regional Servers
       category: NSAO Cloud Desktop
     - name: West Coast Datacenter
-      description: The guts of the application.
+      description: West Regional Servers
+      category: NSAO Cloud Desktop
+    - name: na
       category: Uncategorized
     - name: Media Proxy
       description: This is the service responsible for serving images, audio, and video. It is reliant on our CDN.
