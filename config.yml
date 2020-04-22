@@ -124,11 +124,14 @@ params:
     - name: NSAO Cloud Desktop
       description: NSAO hosted user cloud desktops
       closed: true
-    - name: NSAO Email Services
+    - name: NSAO Exchange Email Services
       description: NSAO hosted user Exchange email services
       closed: true
     - name: NSAO Voice Services
       description: NSAO hosted voice services
+      closed: true
+    - name: NSAO Web and POP/IMAP Email
+      description: NSAO hosted web and POP/IMAP email services
       closed: true
 
   # These are your systems. Change them to
