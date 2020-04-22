@@ -146,8 +146,9 @@ params:
     - name: West Coast Datacenter
       description: West Regional Servers
       category: NSAO Cloud Desktop
-    - name: na
-      category: Uncategorized
+    - name: Client Web Control Panel
+      category: NSAO Web and POP/IMAP Email
+      description: The client control panel for managing your hosting
     - name: Media Proxy
       description: This is the service responsible for serving images, audio, and video. It is reliant on our CDN.
       category: Uncategorized
@@ -177,7 +178,7 @@ params:
   #
   # Default: `yearly`
   # STRING; `monthly`, `yearly`, `none`
-  incidentHistoryFormat: "none"
+  incidentHistoryFormat: "monthly"
 
   # Disable dark mode
   #
